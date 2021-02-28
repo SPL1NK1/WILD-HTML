@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+    height: 780px;
+    left: 0px;
+    top: -1px;
+    padding-left: 78px;
+
+    background: url(../img/Header/back.png);
+}
+
+.header__logo {
+    position: absolute;
+    left: 6.53%;
+    right: 1.04%;
+    top: 5.34%;
+    bottom: 1%;  
+
+}
+
+.logo__text {
+    margin-left: 140px;
+    margin-bottom: 620px;
+
+    font-family: Roboto;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/* Nav */
+.nav {
+    margin-bottom: 680px;
+    margin-left: 700px;
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: .75;
+    margin-left: 50px;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.info__text, h1, h2 {
+    width: 199px;
+    height: 72px;
+    left: 50px;
+    top: 83px;
+
+    font-size: 48px;
+    position: absolute;
+    color: #CD6326;
+}
+
+.info__text1 {
+    position: absolute;
+    width: 274px;
+    height: 108px;
+    left: 100px;
+    top: 322px;
+
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Button */
+.Btn {
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 100px;
+    top: 499px;
+
+    background: #CD6326;
+    border-radius: 5px;
+}
+
+.Btn a {
+    margin-left: 50px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
+.BtnIn {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 1200px;
+    top: 35px;
+
+    background: #CD6326;
+    border-radius: 5px;
+}
+
+.BtnIn a {
+    margin-left: 35px;
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F7F7F7;
+}   
+
+.main {
+    width: 1518px;
+    height: 1368px;
+    left: 0px;
+    top: 0px;
+
+    background: #CCCCCC;
+    border-radius: 0px;
+}
+
+.text, h2 {
+    width: 324px;
+    height: 72px;
+    left: 558px;
+    top: 920px;
+
+    font-size: 48px;
+    color: black;
+}
+
+.sub_text, sh2 {
+    position: absolute;
+    width: 332px;
+    height: 36px;
+    left: 304px;
+    top: 525px;
+
+    color: grey;
+}
+
+.wild {
+    margin: 100px 0; 
+}
+
+.wild__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 250px;
+}
+
+.photo__item {
+    margin-left: 15px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.text__mail,h3 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 25px;
+
+}
+
+.footer {
+    width: 1518px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+
+    background: url(../img/Footer/Rectangle.jpg);
+    border-radius: 0px;
+}
+
+.logo__footer {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.footer__text {
+    margin-left: 175px;
+    color: #ffffff;
+    font-size: 48px;
+    position: absolute;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.nav__footer {
+    margin-top: 125px;
+    margin-bottom: 680px;
+    margin-left: 700px;
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav__link__footer {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: .75;
+    margin-left: 50px;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link__footer:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
